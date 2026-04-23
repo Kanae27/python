@@ -1,0 +1,5 @@
+values = input("Enter a list of numbers separated by commas: ")
+list_of_values = values.split(",")
+turple = tuple(list_of_values)
+print(f"List: {list_of_values}")
+print(f"Tuple: {turple}")
